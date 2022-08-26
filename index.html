@@ -16,8 +16,8 @@
             Suggest&nbsp;a&nbsp;fresh&nbsp;article
           </button>
           <form action="#" name="formAdd" class="header__form form">
-            <input type="text" name="formTitle" class="form__title" />
-            <textarea name="formArticle" class="form__body"></textarea>
+            <input type="text" name="formTitle" class="form__title" required minlength="3"/>
+            <textarea name="formArticle" class="form__body" required minlength="5"></textarea>
             <button type="submit" class="form__submit">
               Submit an article
             </button>
