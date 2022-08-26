@@ -11,4 +11,4 @@
 
 **Проект**
 
-* [Ссылка на Проект - Murzilki-Newspaper](https://github.com/Alexander0798/Murzilki-Newspaper)
+* [Ссылка на Проект - Murzilki-Newspaper](https://github.com/Alexander0798/Murzilki-Newspaper/index.html)
