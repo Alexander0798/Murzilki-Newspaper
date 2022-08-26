@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="root">
+    <div class="page">
+      <header class="header">
+        <h1 class="header__title">Murzilki Newspaper! Latest&nbsp;News:</h1>
+        <div class="header__wraper-add">
+          <button class="header__button-add">
+            Suggest&nbsp;a&nbsp;fresh&nbsp;article
+          </button>
+          <form action="#" name="formAdd" class="header__form form">
+            <input type="text" name="formTitle" class="form__title" />
+            <textarea name="formArticle" class="form__body"></textarea>
+            <button type="submit" class="form__submit">
+              Submit an article
+            </button>
+          </form>
+        </div>
+        <div class="header__wraper-searh">
+          <input type="text" name="inputSearh" class="header__input" />
+          <button type="button" class="header__button-search">&#128270;</button>
+          <button type="button" class="header__button-rest">&#10060;</button>
+        </div>
+      </header>
+      <main class="main">
+        <ul class="main__list"></ul>
+        <nav class="main__navigation navigation">
+          <ul class="navigation__list"></ul>
+        </nav>
+      </main>
+      <footer class="footer">
+        <a href="https://github.com/Alexander0798/Murzilki-Newspaper" class="footer__link">&#8678;<Back class="footer__title">Back to github</h3></a>
+      </footer>
+    </div>
+
+    <div class="popup popup__comments">
+      <div class="popup__container">
+        <h2 class="popup__title"></h2>
+        <p class="popup__body"></p>
+        <span>Comments:</span>
+        <ul class="popup__comments comments"></ul>
+      </div>
+    </div>
+    <template id="temlate-item">
+      <li class="main__item item">
+        <h2 class="item__title"></h2>
+        <p class="item__description"></p>
+        <button class="item__button-del" type="button">Delete post</button>
+      </li>
+    </template>
+    <template id="temlate-link">
+      <li class="navigation__item">
+        <a href="#" class="navigation__link"></a>
+      </li>
+    </template>
+    <template id="template-comments">
+      <li class="comments__item">
+        <h3 class="comments__name"></h3>
+        <p class="comments__email"></p>
+        <p class="comments__body"></p>
+      </li>
+    </template>
+    <script src="./script/index.js"></script>
+  </body>
+</html>
